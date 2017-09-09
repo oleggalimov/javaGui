@@ -6,15 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="322bd35d-ab54-433c-91d6-3dc38e3c6b42" name="Default" comment="">
+    <list default="true" id="322bd35d-ab54-433c-91d6-3dc38e3c6b42" name="Default" comment="Переписан сервис чтения на статический класс">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/Listeners/menuFileOpenFileListener.class" afterPath="$PROJECT_DIR$/out/production/gui/Listeners/menuFileOpenFileListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/main.class" afterPath="$PROJECT_DIR$/out/production/gui/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/model/material.class" afterPath="$PROJECT_DIR$/out/production/gui/model/material.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/services/openMaterialsFile.class" afterPath="$PROJECT_DIR$/out/production/gui/services/openMaterialsFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java" afterPath="$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/material.java" afterPath="$PROJECT_DIR$/src/model/material.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/openMaterialsFile.java" afterPath="$PROJECT_DIR$/src/services/openMaterialsFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="menuFileOpenFileListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="112">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +39,10 @@
       <file leaf-file-name="openMaterialsFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/services/openMaterialsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="175">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +51,7 @@
       <file leaf-file-name="material.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/material.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
+            <state relative-caret-position="36">
               <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding />
             </state>
@@ -107,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/model/material.java" />
         <option value="$PROJECT_DIR$/test.dat" />
         <option value="/usr/lib/jvm/java-1.8.0-openjdk-i386/jre/lib/rt.jar!/java/io/FileInputStream.class" />
-        <option value="$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java" />
         <option value="$PROJECT_DIR$/src/services/openMaterialsFile.java" />
       </list>
     </option>
@@ -444,6 +439,14 @@
       <updated>1504939396159</updated>
       <workItem from="1504943354611" duration="14657000" />
     </task>
+    <task id="LOCAL-00001" summary="Переписан сервис чтения">
+      <created>1504965477860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504965477860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -456,7 +459,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -491,7 +494,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Переписан сервис чтения" />
+    <MESSAGE value="Переписан сервис чтения на статический класс" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переписан сервис чтения на статический класс" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -579,24 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/material.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -613,13 +600,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Listeners/menuFileOpenFileListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/openMaterialsFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="175">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
