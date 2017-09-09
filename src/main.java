@@ -10,6 +10,6 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class main {
     public static void main(String[] args) {
         mainWindow mainWindow = new mainWindow();
-        mainWindow.setVisible(true);
+
     }
 }

@@ -1,5 +1,8 @@
 package guiComponents;
 
+import guiComponents.menuBarComponents.AboutIyem.aboutItem;
+import guiComponents.menuBarComponents.FilItem.fileItem;
+
 import javax.swing.*;
 
 /**
@@ -10,12 +13,18 @@ public class mainWindow extends JFrame {
         createMainWindow();
     }
     private void createMainWindow () {
-        JFrame mainWindow = new JFrame("Управление матриалами");
+        JFrame mainWindow = new JFrame();
         mainWindow.setDefaultCloseOperation(EXIT_ON_CLOSE);
         mainWindow.setTitle("Управление материалами");
         mainWindow.setSize(400,300);
-        mainWindow.setDefaultCloseOperation(EXIT_ON_CLOSE);
         mainWindow.setLocationRelativeTo(null);
+        mainWindow.setJMenuBar(createMenuPanel());
         mainWindow.setVisible(true);
+    }
+    private JMenuBar createMenuPanel () {
+        JMenuBar menuBar = new JMenuBar();//панель
+        menuBar.add(new fileItem());
+        menuBar.add(new aboutItem());
+        return menuBar;
     }
 }
