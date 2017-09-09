@@ -1,14 +1,12 @@
 import guiComponents.mainWindow;
+import java.io.*;
 
-import javax.swing.*;
-
-import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 /**
  * Created by oleg on 09.09.17.
  */
 public class main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         mainWindow mainWindow = new mainWindow();
 
     }

@@ -3,45 +3,29 @@ package services;
 import model.material;
 
 import java.io.*;
+import java.nio.channels.FileChannel;
 import java.util.ArrayList;
+import java.util.List;
 
 public class openMaterialsFile {
-    File f;
-    public openMaterialsFile (File inputFile) throws IOException {
-        this.f=inputFile;
+    File fileForRead;
+    List <material> listOfMaterials = new ArrayList<>();
+    public openMaterialsFile (File inputFile) {
+        this.fileForRead=inputFile;
     }
     public void readFile () {
-        //InputStream inputStream =  openMaterialsFile.class.getResourceAsStream("/resources/materials.dat");
-
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f)))) {
-            String tempName;
-            int  countOfMaterials;
-            ArrayList<material> listOfMaterials = new ArrayList<>();
-
-            countOfMaterials=Integer.parseInt(br.readLine());
-            System.out.println("Будет обработано материалов: "+countOfMaterials);
-
-            for (int i = 0; i < countOfMaterials; i++) {
-                tempName=br.readLine();
-                if (tempName.trim().contains(" ")) {
-                    listOfMaterials.add(new material(
-                                    tempName,
-                                    Float.parseFloat(br.readLine()),
-                                    Integer.parseInt(br.readLine())
-                            )
-                    );
-                } else  {
-                    br.readLine();br.readLine();
-                }
+        try (FileInputStream fin = new FileInputStream(fileForRead);
+             ObjectInputStream oin = new ObjectInputStream(fin)
+        ) {
+            while (fin.available()!=0) {
+                listOfMaterials.add((material)oin.readObject());
             }
-            if (listOfMaterials.size()==0) {
-                System.out.println("Заданных веществ не обнаружено");
-            } else {
-               //TODO доделать обработку файла
-                System.out.println(listOfMaterials.size());
+            for (material m: listOfMaterials) {
+                System.out.println(m);
             }
+        } catch (IOException ioex) {
 
-        } catch (IOException e) {
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }

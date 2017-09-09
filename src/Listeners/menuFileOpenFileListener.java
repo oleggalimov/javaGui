@@ -15,13 +15,9 @@ public class menuFileOpenFileListener implements ActionListener {
         JFileChooser jf = new JFileChooser();
         int succes=jf.showDialog(null,"Открыть файл..");
         if (succes==0) {
-            System.out.println("Пользователь хочет открыть файл : "+jf.getSelectedFile());
-            try {
-                openMaterialsFile om = new openMaterialsFile(jf.getSelectedFile());
-                om.readFile();
-            } catch (IOException e1) {
-                e1.printStackTrace();
-            }
+            System.out.println("Открываем файл..");
+            openMaterialsFile om = new openMaterialsFile(jf.getSelectedFile());
+            om.readFile();
         }
     }
 }
