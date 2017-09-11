@@ -2,13 +2,14 @@ package guiComponents;
 
 import guiComponents.menuBarComponents.AboutIyem.aboutItem;
 import guiComponents.menuBarComponents.FilItem.fileItem;
-
 import javax.swing.*;
+
 
 /**
  * Created by oleg on 09.09.17.
  */
 public class mainWindow extends JFrame {
+
     public  mainWindow () {
         createMainWindow();
     }
