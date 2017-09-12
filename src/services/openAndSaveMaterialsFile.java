@@ -3,10 +3,12 @@ package services;
 import model.listOfMaterials;
 import model.material;
 
+import javax.swing.*;
 import java.io.*;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class openAndSaveMaterialsFile {
     public static void readFile (File inputFile) {
@@ -22,12 +24,8 @@ public class openAndSaveMaterialsFile {
                 System.out.println(m);
             }
             listOfMaterials.setMaterialList(materials);
-        } catch (StreamCorruptedException ioex) {
-            ioex.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null,"Не удалось открыть файл","Ошибка",JOptionPane.ERROR_MESSAGE);
         }
 
     }
@@ -47,10 +45,8 @@ public class openAndSaveMaterialsFile {
                 for (material m: listOfMaterials.getMaterialList()) {
                     out.writeObject(m);
                 }
-            } catch (StreamCorruptedException ioex) {
-                ioex.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null,"Не удалось открыть файл","Ошибка",JOptionPane.ERROR_MESSAGE);
             }
     }
 }
