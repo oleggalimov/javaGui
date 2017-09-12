@@ -43,13 +43,13 @@ public class mainWindow extends JFrame {
 
         //правая панель
         JPanel rihthPAnel = new JPanel();
-        //rihthPAnel.setLayout(new BoxLayout(rihthPAnel,BoxLayout.Y_AXIS));
         Box box = Box.createVerticalBox();
 
         JButton addMaterial = new JButton("Добавить");
-        addMaterial.setAlignmentY(JComponent.CENTER_ALIGNMENT);
+        addMaterial.setAlignmentX(JComponent.CENTER_ALIGNMENT);
         JButton clearForm = new JButton("Очистить");
-        clearForm.setAlignmentY(JComponent.CENTER_ALIGNMENT);
+        clearForm.setAlignmentX(JComponent.CENTER_ALIGNMENT);
+
         box.add(addMaterial);
         box.add(Box.createVerticalStrut(10));
         box.add(clearForm);

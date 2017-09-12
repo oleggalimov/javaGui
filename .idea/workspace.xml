@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="322bd35d-ab54-433c-91d6-3dc38e3c6b42" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/guiComponents/mainWindow.class" afterPath="$PROJECT_DIR$/out/production/gui/guiComponents/mainWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gui/main.class" afterPath="$PROJECT_DIR$/out/production/gui/main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/guiComponents/mainWindow.java" afterPath="$PROJECT_DIR$/src/guiComponents/mainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.java" afterPath="$PROJECT_DIR$/src/main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="mainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/guiComponents/mainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="50" column="61" lean-forward="false" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
@@ -604,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505230355354</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлены меню на главном экране">
+      <created>1505234274840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1505234274840</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20123000" />
+    <option name="totallyTimeSpent" value="20547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
@@ -705,7 +709,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Переписан сервис чтения" />
     <MESSAGE value="Переписан сервис чтения на статический класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переписан сервис чтения на статический класс" />
+    <MESSAGE value="Добавлены меню на главном экране" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены меню на главном экране" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1057,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/guiComponents/mainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="322">
+          <caret line="50" column="61" lean-forward="false" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
