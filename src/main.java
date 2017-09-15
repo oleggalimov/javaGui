@@ -20,7 +20,6 @@ import java.util.List;
  */
 public class main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        mainWindow mainWindow = new mainWindow();
-
+        guiComponents.mainWindow.BuildMainWindow();
     }
 }

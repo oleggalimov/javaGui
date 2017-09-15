@@ -1,6 +1,7 @@
 package guiComponents.menuBarComponents.FilItem;
 
 import Listeners.menuFileOpenFileListener;
+import model.material;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

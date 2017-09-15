@@ -1,6 +1,7 @@
 package Listeners;
 
 
+import model.material;
 import services.openAndSaveFileFilter;
 import services.openAndSaveMaterialsFile;
 
@@ -14,8 +15,10 @@ import java.awt.event.ActionListener;
 
 public class menuFileOpenFileListener implements ActionListener {
     private int ActionType;
+
     public menuFileOpenFileListener(int actionType) {
         this.ActionType=actionType;
+
     }
 
     @Override
@@ -23,7 +26,6 @@ public class menuFileOpenFileListener implements ActionListener {
         switch (ActionType) {
             case 1: {
                 JFileChooser jf = new JFileChooser();
-
                 jf.setFileFilter(new openAndSaveFileFilter());
                 int succes=jf.showOpenDialog(null);
                 if (succes==0) {
@@ -48,8 +50,5 @@ public class menuFileOpenFileListener implements ActionListener {
                     e1.printStackTrace();
                 }
         }
-
-
-
     }
 }

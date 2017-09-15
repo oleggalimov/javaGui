@@ -15,7 +15,6 @@ public class openAndSaveFileFilter extends FileFilter {
             return false;
         }
     }
-
     @Override
     public String getDescription() {
         return "*.dat";
