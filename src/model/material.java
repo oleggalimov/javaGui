@@ -39,7 +39,7 @@ public class material implements Serializable{
 
     @Override
     public String toString() {
-        return "Материал: " + this.name + ", удельный вес: " + weght + ", признак проводимости: " + Conductor;
+        return this.name + "(" + weght + "; " + Conductor+")";
     }
 }
 

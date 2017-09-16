@@ -13,10 +13,10 @@ import java.awt.event.ActionListener;
 
 
 
-public class menuFileOpenFileListener implements ActionListener {
+public class OpenSaveFile implements ActionListener {
     private int ActionType;
 
-    public menuFileOpenFileListener(int actionType) {
+    public OpenSaveFile(int actionType) {
         this.ActionType=actionType;
 
     }

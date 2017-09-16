@@ -1,6 +1,4 @@
-package guiComponents.menuBarComponents.AboutIyem;
-
-import guiComponents.windowCreateFabric;
+package guiComponents.menuBarComponents;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +19,9 @@ public class aboutItem extends JMenu {
         jMenuItemAbout.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JFrame about = windowCreateFabric.getWindow("О программе",300,100);
+                JFrame about = new JFrame("О программе");
+                about.setSize(300,100);
+                about.setLocationRelativeTo(null);
                 Container container = about.getContentPane();
                 JLabel jl = new JLabel("<html>Программа для работы с материалами. </br></br>Галимов Олег Давлетгулович, 2017</html>");
                 //jl.setVerticalAlignment(JLabel.CENTER);
